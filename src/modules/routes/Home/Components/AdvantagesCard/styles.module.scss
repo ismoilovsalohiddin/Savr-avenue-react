@@ -1,0 +1,53 @@
+.advantages__card {
+  width: 200px;
+  height: 200px;
+  background-color: #f5f4f0;
+  border-radius: 200px;
+  padding: 50px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  transition: 0.5s;
+  overflow: hidden;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+  &:nth-child(5) {
+    margin-left: 100px;
+  }
+  &:hover {
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 240px;
+    .advantages__item_content {
+      margin-left: -120px;
+    }
+    .advantages__item_text {
+      width: 240px;
+      opacity: 1;
+      display: block;
+    }
+  }
+}
+
+.advantages__item_content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  transition: 0.8s;
+}
+
+.advantages__item_text {
+  min-width: 230px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #09301d;
+  transition: 0.5s;
+  margin: 0;
+  opacity: 0;
+  display: none;
+}

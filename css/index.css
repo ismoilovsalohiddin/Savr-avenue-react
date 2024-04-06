@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap");
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Jost", "Arial", sans-serif;
+  background-color: #cfcfcf;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=index.css.map */
